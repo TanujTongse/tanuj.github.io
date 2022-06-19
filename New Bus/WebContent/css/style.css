@@ -1,0 +1,200 @@
+/*body*/
+body
+{
+	margin: 0;
+}
+.unipadd
+{
+	padding: 0 7%;
+}
+
+/*topbar*/
+
+#topbar
+{
+	background: grey;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	overflow: auto;
+}
+
+#tollfree
+{
+	float: left;
+	margin: 0;
+	color: white;
+	text-decoration: none;
+	margin-top: 5px;
+}
+
+#tollfree a
+{
+	color: white;
+	text-decoration: none;
+}
+
+#social-icon
+{
+	float: right;
+}
+.fa-brands
+{
+	background: white;
+	color: grey;
+	padding: 7px;
+	border-radius: 50%;
+	text-decoration: none;
+}
+.fa-facebook
+{
+	padding: 7px 9px;
+	background:blue;
+    color: white;
+}
+.fa-instagram
+{
+	padding: 7px 9px;
+	background: darkred;
+	color: white;
+}
+.fa-whatsapp
+{
+	padding: 7px 9px;
+	background: limegreen;
+	color: white;
+}
+.fa-twitter
+{
+	background: royalblue;
+	color: white;
+}
+/*logobar*/
+
+#logobar img
+{
+	width: 250px;
+}
+
+/*navbar*/
+
+#navbar
+{
+	background: orange;
+}
+
+#navbar li
+{
+	display: inline-block;
+	padding: 20px;
+	padding-right: 35px;
+}
+#navbar li a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}
+#navbar a:hover
+{
+	background: red;	
+	padding: 20px;
+}
+/*POSTER*/
+#poster
+{
+	background: url(../image/bus1.jpg);
+	background-repeat: no-repeat;
+	width: 86%;
+	height: 500px;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	color: yellow;
+	flex-direction: column;
+}
+
+
+.poster
+{
+	
+    color: yellow;
+    text-decoration: none;
+    display: block;
+    margin-right: 980px;
+    padding-left: 05px;
+    
+}
+#poster a:hover
+{
+    color: red; 
+    padding: 5px 0;
+    display: block;
+}
+/*why*/
+
+#why
+{
+	overflow: auto;
+}
+
+.div50
+{
+	width: 80%;
+	float: left;
+	box-sizing: border-box;
+	padding-left: 170px;
+	text-align: center;
+}
+
+.heading
+{
+	color: red;
+	text-align: center;
+
+}
+/*footer*/
+
+#implink
+{
+	background: grey;
+	color: white;
+	overflow: auto;
+}
+.div31
+{
+	width: 33.33%;
+	float: left;
+	box-sizing: border-box;
+}
+.div31 h3
+{
+	text-decoration: underline;
+	text-underline-offset: 10px;
+	text-decoration-thickness: 2px;
+	color: yellow;
+}
+#footerm
+{
+	list-style-type: none;
+}
+#footerm li
+{
+	padding-bottom: 10px;
+}
+#footerm li a
+{
+	text-decoration: none;
+	color: white;
+}
+#Copyright
+{
+	background: darkblue;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+
+
