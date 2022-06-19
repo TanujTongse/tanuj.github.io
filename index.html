@@ -1,32 +1,121 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>User-Login</title>
+<title>Tongse Bus</title>
+<link href="http://fonts.googleapis.com/css?family=Abel|Arvo" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.dropotron-1.0.js"></script>
+<script type="text/javascript" src="jquery.slidertron-1.0.js"></script>
 </head>
-<body style="background-color:lightyellow">
-<form action="Ulog">
-<table align="center" border=3px style="color:black; border-color:black">
-<h1 align="center" style="color:red; font-family:Cooper Black;">TONGSE BUS SERVICE</h1>
-<h3 align="center" style="color:blue;">USER-LOGIN</h3>
-<tr>
-   <td>EMAIL</td>
-   <td>
-   <input type="email" name="email" ></br>
-   </td>
-</tr>
-<tr>
-   <td>PASSWORD</td>
-   <td>
-   <input type="password" name="password"></br>
-   </td>
-</tr>
-<tr>
-   <td>
-   <input type="submit" name="Login">
-   <a href="uregs.html">SIGN-IN</a>
-   </td>
-</tr>
-</table>
-</form>
+<body>
+<div id="wrapper">
+  <div id="header-wrapper">
+    <div id="header">
+      <div id="logo">
+        <h1>WELCOME TO TONGSE BUS SERVICE</h1>
+        <h2 align="center" style="color:#FFFF00">OM SHREE GAJANAN</h2>
+      </div>
+    </div>
+    <div id="menu-wrapper">
+      <ul id="menu">
+        <a href="index 1.html"><span>HOME</span></a>
+        <a href="timetable.html"><span>TIME-TABLE</span></a>
+		<a href="about.html"><span>ABOUT-US</span></a>
+		<a href="contact.html"><span>CONTACT-US</span></a>
+		<a href="images/buus.jpg"><span>IMAGE</span></a>
+		<a href="Uhome.jsp"><span>TICKET-STATUS</span></a>
+		<a href="user.html"><span>LOGOUT</span></a>
+      </ul>
+      <script type="text/javascript">
+			$('#menu').dropotron();
+		</script>
+    </div>
+    <!-- end #menu -->
+    <div id="banner">
+      <div id="slider"> <a href="#" class="button previous-button">&lt;</a> <a href="#" class="button next-button">&gt;</a>
+          <div class="viewer">
+            <div class="reel">
+              <div class="slide">
+                <p>LUXERY AND VIDEO COACHES</p>
+                <a class="link" href="#">Full story ...</a><img src="images/r1.jpg" width="900" height="350" alt="" /></div>
+              <div class="slide">
+                <p>LOOKS ARE AWESOME</p>
+                <a class="link" href="#">Full story ...</a><img src="images/r2.jpg" width="900" height="350" alt="" /></div>
+			  <div class="slide">
+                <p>FANTASTIC BUS</p>
+                <a class="link" href="#">Full story ...</a><img src="images/r3.jpg" width="900" height="350" alt="" /></div>
+				<div class="slide">
+                <p>PUSHBACK SEATS</p>
+                <a class="link" href="#">Full story ...</a><img src="images/r4.jpg" width="900" height="350" alt="" /></div>
+				</div>
+				</div>
+            </div>
+          </div>
+        <div class="indicator">
+            
+        </div>
+      </div>
+      <script type="text/javascript">
+				$('#slider').slidertron({
+					viewerSelector: '.viewer',
+					reelSelector: '.viewer .reel',
+					slidesSelector: '.viewer .reel .slide',
+					advanceDelay: 3000,
+					speed: 'slow',
+					navPreviousSelector: '.previous-button',
+					navNextSelector: '.next-button',
+					indicatorSelector: '.indicator ul li',
+					slideLinkSelector: '.link'
+				});
+			</script>
+    </div>
+  </div>
+  <!-- end #header -->
+<div id="page">
+		<div id="content">
+			<div class="contentbg">
+				<div class="post">
+					<h2 class="title">WELCOME TO TONGSE BUS SERVICE</h2>
+					<div class="entry">
+						<p>Tongse Bus Service is Started in 1983 It is very Famouse Bus company in Betul District. There are Total 5 Buses. All Are Luxery And Video Coach Buses and Seating Capacity is 50,40,35,55,and 45 availble.Contact for any other information.</p>
+						<h3>TANUJ TONGSE</h3></br>
+						<h3>CONTACT:- 6264885353</h3></br>
+						<h3>BAZAR CHOWK CHICHOLI</h3></br>
+						<h3>460330 BETUL (MP)</h3></br>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29590.461475014603!2d77.64844531809612!3d22.0186786057712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd61bcff728401d%3A0xceb54ead9a8220b5!2sChicholi%2C%20Madhya%20Pradesh%20460330!5e0!3m2!1sen!2sin!4v1654526580465!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+				</div>
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+		<!-- end #content -->
+		<div id="sidebar-bg">
+			<div id="sidebar">
+				<ul>
+					<li>
+						<h2>IMPORTANT LINKS-</h2>
+						<ul>
+							<li><a href="index 1.html">HOME</a></li>
+							<li><a href="timetable.html">TIME-TABLE</a></li>
+							<li><a href="images/video.mp4">VIDEO</a></li>
+							<li><a href="images/buus.jpg">IMAGE</a></li>
+							<li><a href="contact.html">CONTACT-US</a></li>
+							<li><a href="Uhome.jsp">TICKET-STATUS</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+  </div>
+	<!-- end #page --> 
+</div>
+<div id="footer">
+	<p>Copyright © TONGSE BUS 1982-1983</p>
+</div>
+<!-- end #footer -->
 </body>
 </html>
